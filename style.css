@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+}
+header {
+  background-color: #506ca8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+header img {
+  width: 80%;
+  height: auto;
+}
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar img {
+  width: 3rem;
+  height: 3rem;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: #506ca8;
+  padding: 0rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: #f1eaf0;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+  display: block;
+}
+
+body {
+  background-color: #f1eaf0;
+  font-family: "Montserrat";
+  padding-bottom: 4rem;
+}
+
+main {
+  padding-bottom: 15vh;
+  padding: 0 0.5rem;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+/* z-index; https://www.w3schools.com/cssref/pr_pos_z-index.php*/
+a[href="https://plasticwhale.com/booking/"]
+{
+  font-size: 1.5rem;
+  background-color: #fc9f6a;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: black;
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+/* short hand notation; https://blog.hubspot.com/website/css-shorthand */
+p {
+  padding: 0.25rem 0.5rem;
+  line-height: 1.6;
+  font-size: 0.8rem;
+}
+
+h1 {
+  padding: 0.5rem 0 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.bodem-afbeelding {
+  position: fixed;
+  left: 0;
+  bottom: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+/* z-index; https://www.w3schools.com/cssref/pr_pos_z-index.php*/
+img {
+  z-index: 0;
+}
+
+#onsverhaal p {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+#onsverhaal h2 {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
